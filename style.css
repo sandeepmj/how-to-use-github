@@ -5,6 +5,13 @@ html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
 }
 
+div {
+  background: yellow;
+  width: 50%;
+  margin: auto;
+  font-size: 2em;
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
@@ -13,4 +20,8 @@ html, body {
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+  div {
+    background: red;
+    font-size: 5em;
+  }
 }
