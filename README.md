@@ -6,7 +6,7 @@
 
 `git commit -m "your message here"` logs what changes you made.
 
-`git push origin master` pushes the changes to the master branch.
+`git push origin main` pushes the changes to the main branch.
 
 `git checkout -b branchName` creates a new branch (you name the branchName whatever you want).
 
@@ -14,8 +14,8 @@
 
 `git push origin addFrills` pushes changes to a branch named `addFrills`.
 
-`git checkout master` allows you to switch from `addFrills` to `master`. Remember you must first add, commit and push the changes made on `addFrills`.
+`git checkout main` allows you to switch from `addFrills` to `main`. Remember you must first add, commit and push the changes made on `addFrills`.
 
-After merging a branch with the master branch, you must `pull` the master branch from GitHub.com (the cloud) to your local drive. Use the following command:
+After merging a branch with the main branch, you must `pull` the main branch from GitHub.com (the cloud) to your local drive. Use the following command:
 
-`git pull master`
+`git pull main`
